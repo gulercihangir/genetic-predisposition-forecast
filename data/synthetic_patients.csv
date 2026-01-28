@@ -1,0 +1,10 @@
+Patient_ID,Age,Smoking_Status,Vitamin_D_Level,Family_History,Genomic_Mutation_Found,Disease_Target
+P001,45,1,18.5,1,1,Cancer
+P002,32,0,42.0,0,0,Cancer
+P003,58,0,12.0,1,1,MS
+P004,24,1,35.5,0,0,MS
+P005,50,1,22.0,1,1,Cancer
+
+Smoking_Status (binary): 0 = Non-smoker, 1 = Smoker.
+Vitamin_D_Level: Measured in ng/mL (Low levels are a risk factor for MS).
+Genomic_Mutation_Found: This is the "label" we get from BLAST (0 = Matches Reference, 1 = Mutation detected).
